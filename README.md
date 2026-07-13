@@ -8,7 +8,7 @@ La aplicación fue desarrollada aplicando buenas prácticas de arquitectura fron
 
 ---
 
-## ✨ Características principales
+## Características principales
 
 - 📈 Visualización de criptomonedas en tiempo real.
 - 🔌 Consumo de API REST mediante Axios.
@@ -22,7 +22,7 @@ La aplicación fue desarrollada aplicando buenas prácticas de arquitectura fron
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 ### Frontend
 
