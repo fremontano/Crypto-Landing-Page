@@ -1,10 +1,9 @@
 import { ArrowRight, BarChart3 } from 'lucide-react'
-import React from 'react'
 
 export const Hero = () => {
   return (
     
-    <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.16),_transparent_40%),linear-gradient(135deg,_#071521_0%,_#081b2a_100%)]">
+    <section className="relative overflow-hidden linear-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.16),_transparent_40%),linear-gradient(135deg,_#071521_0%,_#081b2a_100%)]">
         <div className="mx-auto flex max-w-7xl flex-col px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10">
           <header className="mb-10 flex items-center justify-between rounded-full border border-cyan-400/15 bg-[#0b1c2a]/70 px-4 py-3 backdrop-blur-sm sm:px-6">
             <span className="text-lg font-semibold tracking-tight text-cyan-300">CriptoFlux</span>
@@ -34,7 +33,7 @@ export const Hero = () => {
               <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:items-start">
                 <a
                   href="#cotizador"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                  className="inline-flex items-center justify-center gap-2 rounded-full linear-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                 >
                   Cotizar ahora
                   <ArrowRight size={16} />
@@ -54,9 +53,9 @@ export const Hero = () => {
               </div>
             </div>
 
-            <div className="relative mx-auto flex w-full max-w-[430px] items-center justify-center">
-              <div className="animate-float relative aspect-square w-full max-w-[430px] rounded-[2rem] border border-cyan-500/10 bg-[#0b1c2a]/90 p-5 shadow-2xl shadow-cyan-950/40 sm:p-8">
-                <div className="absolute inset-0 rounded-[2rem] bg-[radial-gradient(circle_at_center,_rgba(34,211,238,0.12),_transparent_60%)]" />
+            <div className="relative mx-auto flex w-full max-w-107.5 items-center justify-center">
+              <div className="animate-float relative aspect-square w-full max-w-107.5  rounded-4xl border border-cyan-500/10 bg-[#0b1c2a]/90 p-5 shadow-2xl shadow-cyan-950/40 sm:p-8">
+                <div className="absolute inset-0 rounded-4xl linear-[radial-gradient(circle_at_center,_rgba(34,211,238,0.12),_transparent_60%)]" />
                 <div className="relative flex h-full items-center justify-center">
                   <div className="rounded-full border border-white/10 p-8 sm:p-12">
                     <div className="rounded-full border border-cyan-400/20 p-10 sm:p-16">
@@ -65,7 +64,7 @@ export const Hero = () => {
                   </div>
                 </div>
 
-                <div className="animate-floatSlow absolute bottom-4 right-4 flex max-w-[240px] items-center gap-3 rounded-2xl border border-cyan-500/20 bg-[#0B1C2A]/95 px-4 py-3 shadow-2xl sm:bottom-6 sm:right-6 sm:px-5 sm:py-4">
+                <div className="animate-floatSlow absolute bottom-4 right-4 flex max-w-4xl items-center gap-3 rounded-2xl border border-cyan-500/20 bg-[#0B1C2A]/95 px-4 py-3 shadow-2xl sm:bottom-6 sm:right-6 sm:px-5 sm:py-4">
                   <div className="flex h-11 w-11 items-center justify-center rounded-full bg-green-500/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
