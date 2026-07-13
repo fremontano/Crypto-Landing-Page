@@ -1,4 +1,4 @@
-# 🚀 CryptoFlux - Cryptocurrency Dashboard
+# CryptoFlux - Cryptocurrency Dashboard
 
 CryptoFlux es una aplicación web moderna para visualizar información de criptomonedas en tiempo real.
 
