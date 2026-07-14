@@ -14,10 +14,12 @@ export const getCryptos = async () => {
 
 
 export const getCryptoreHistory = async (id: string, interval: string) => {
+
   const { data } = await api.get(`/assets/${id}/history`, {
     params: {
       interval: interval,
     },
   });
+  console.log(data);
   return data.data;
 };
